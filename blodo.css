@@ -1,0 +1,427 @@
+#backimage,#whitebackimage {
+    background-image: url(images/background-boldo.jfif);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 1rem 2.5rem 2.375rem 4.375rem;
+}
+#whitebackimage{
+    background-image: url(images/whitebackimage.jpg);
+}
+.blodoheading {
+    font-family: Manrope;
+    font-size: 2.688rem;
+    font-weight: 700;
+}
+.rotate{
+    transform: rotate(3.142rad);
+}
+.tend{
+    text-align: end;
+}
+.width30{
+    width: 30.866rem;
+    height: 14.494rem;
+}
+.height17{
+    height: 17.813rem;
+    width: 18.75rem;
+}
+.colorwhite{
+    color: white;
+}
+.blodoiconm{
+    margin-top: -0.813rem;
+}
+.mtop{
+    margin-top: -8.25rem;
+}
+.graph {
+    border-radius: 0.938rem;
+    background: rgba(255, 255, 255, 0.18);
+}
+.graph2 {
+    padding: 0.625rem 0.625rem 1.438rem 1.875rem;
+}
+.talkingmandiv {
+    border-radius: 0.75rem;
+    box-shadow: 0rem 0.25rem 2rem 0rem rgba(0, 0, 0, 0.12);
+}
+.btn2-hover:hover {
+    background-color: rgb(32, 224, 160);
+    color: rgba(10, 38, 64, 1);
+}
+.headingbuttons,.borderdarkblue,.btn2-hover,.bpaddng{
+    padding: 0.313rem 1.063rem 0.313rem 1.063rem;
+}
+.radius{
+    border-radius: 1.563rem;
+}
+.btnradius{
+    border-radius: 1.8rem;
+}
+.darkblue{
+    background-color: rgba(10, 38, 64, 1);
+}
+.font-darkblue{
+    color: rgba(10, 38, 64, 1);
+}
+.margin3{
+    margin-top: 3%;
+}
+.headingbuttons:hover{
+    background-color: white;
+    color: rgba(10, 38, 64, 1);
+}
+.borderdarkblue:hover,.loadmore{
+border: 0.125rem solid rgba(10, 38, 64, 1);
+}
+.borderwhite{
+    border:0.063rem solid white;
+}
+.lightgray{
+    color: lightgray;
+}
+.font20 {
+    font-weight: 400;
+    font-size: 1.25rem;
+}
+.fw700{
+    font-size: 1.25rem;
+    font-weight:700 ;
+}
+.center{
+    text-align: center;
+}
+.emailinput {
+    border-radius: 1.25rem;
+    border: 0.125rem solid #FFF;
+    width: 25rem;
+    padding: 0.375rem;
+}
+.margin5{
+    margin-top: 5%;
+}
+.font64{
+    font-weight: 400;
+    font-size: 4rem;
+}
+.font14 {
+    font-size: 0.875rem;
+    font-weight: 400;
+}
+.font16 {
+    font-size: 1rem;    
+    font-weight: 400;
+}
+.font-opensans {
+    font-family: Open Sans;
+}
+.margin2{
+    margin-top: 2%;
+}
+.margin8{
+    margin-top: 8%;
+}
+.marginl{
+    margin-left: 4%;
+}
+.gmwidth{
+    width: 15.625rem;
+height: 15.625rem;
+}
+.gmwidth2{
+    width: 7.5rem;
+height: 7.5rem;
+}
+.width{
+    width: 18.75rem;
+}
+.nature{
+    width: 34.375rem;
+    height: 24.125rem;
+}
+.gray {
+    color: #777777;
+}
+.font28{
+    font-size: 1.75rem;
+    font-weight: 400;
+    font-family: Manrope;
+}
+.startbutton {
+    border-radius: 3.5rem;
+    border: 0.125rem solid #65E4A3;
+}
+.backgreen{
+    background-color: #65E4A3;
+}
+.btnpadding{
+    padding:0.438rem 2.313rem;
+}
+.height14{
+    height: 14.375rem;
+    width:12.5rem;
+}
+.height25{
+    height: 25rem;
+   width: 80rem;
+}
+.height36{
+    height: 36.875rem;
+    width: 20rem;
+}
+.width3{
+    width: 3.625rem;
+    height: 3.625rem;
+}
+.height13{
+    width: 18rem;
+    height: 13.063rem;
+}
+.width21{
+   width: 21.875rem;
+    height: 23.125rem;
+}
+.width9{
+    width: 9.375rem;
+    height: 12.5rem;
+}
+.width18{
+    height: 24.25rem;
+    width: 18.18rem;
+}
+.arroww{
+    height: 0.938rem;
+    width: 1.25rem;
+}
+.width6{
+    width:6.25rem;
+    height: 12.5rem;
+}
+.width25{
+    height:20.625rem;
+     width:25rem;
+}
+.font48{
+    font-size: 3rem;
+    font-weight: 400;
+    font-family: Manrope;
+}
+.mright{
+    margin-right: 2%;
+}
+.gborder {
+    border: 0.125rem solid gray;
+    border-width: 0rem 0rem 0.125rem 0rem;
+}
+.font36 {
+    font-family: Manrope;
+    font-size: 2.25rem;
+    font-weight: 400;
+}
+.padding70{
+    padding: 4.375rem;
+}
+.pr,.pr1{
+    position: relative;
+}
+.pa,.pa1{
+    position: absolute;
+}
+.padding40 {
+    padding: 2.5rem;
+}
+.padding50{
+    padding: 3.125rem;
+}
+.divpadding{
+    padding: 0.625rem;
+}
+.margin15{
+    margin-top: 15%;
+}
+.margin42{
+    margin-top: 42%;
+}
+.conpadding,.abpadding{
+    padding: 1rem 2.5rem 9.375rem 4.375rem;
+}
+.imgpadding{
+    padding: 1rem 2.5rem 5.375rem 4.375rem;
+}
+.font24{
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+.font96{
+    font-family: Manrope;
+    font-size: 6rem;
+    font-weight: 400;
+}
+.divcon {
+    border-radius: 0.75rem;
+    background: #FFF;
+    padding: 1.375rem 1.75rem;
+    box-shadow: 0rem 0.75rem 2rem 0rem rgba(0, 0, 0, 0.12);
+}
+.loadmore:hover {
+    background-color: rgba(10, 38, 64, 1);
+    color: white;
+}
+.fontgreen{
+    color: #4FE9A4;
+}
+.backwhite{
+    background-color: white;
+}
+.hrwidth{
+    width: 68.688rem;
+}
+.hplinkborder{
+    border-bottom: 0.063rem solid white;
+    padding: 1.313rem;
+}
+.borderblue{
+    border-bottom: 0.063rem solid blue;
+    padding: 1.313rem;
+}
+.td-none{
+    text-decoration: none;
+}
+.mleft{
+    margin-left: 3%;
+}
+.width13{
+    width: 13.372rem;
+    height: 10.333rem;
+}
+.width10{
+    width: 10.011rem;
+    height: 10.333rem;
+}
+.height9{
+    height: 9.438rem;
+    width: 9.375rem;
+}
+.margin12{
+    margin-top: 12%;
+}
+@media (min-width:62rem){
+    .overflow{
+        overflow-x: hidden;
+        width: 100%;
+    }
+    .margin9{
+        margin-top: 9%;
+    }
+    .mleft10{
+        margin-left: 60%;
+    }
+}
+@media (min-width:75rem){
+    .font48{
+        font-size: 2.5rem;
+    }
+}
+@media (min-width:12.5rem) and (max-width:47.97rem){
+    .height36{
+        height: 17.813rem;
+      }
+      .abpadding{
+        padding: 0.938rem 0.938rem  9.375rem 0.938rem;
+      }
+}
+@media (min-width :12.5rem) and (max-width:75rem){
+    .emailinput,.nature{
+        width: 15.625rem;
+    }
+    .nature{
+        height: 15.625rem;
+    }
+    .height17,.limagew,.height13{
+        width: 12.5rem;
+    }
+    .font64,.font96,.blodoheading,.font48{
+        font-size:1.7rem;
+    }
+    .font36{
+        font-size: 1.5rem;
+    }
+    .margin15,.margin12{
+        margin-top: 8%;
+    }
+    .amargin{
+        margin-top: 5%;
+    }
+    .font24{
+        font-size: 1.2rem;
+    } 
+}
+@media (min-width: 12.5rem) and (max-width: 62rem){
+    #backimage,#whitebackimage {
+        padding: 2rem;
+    }
+    #navbarSupportedContent{
+        width: 100%;
+       padding: 2.25rem;
+       height: max-content;
+    }
+    .addpadding{
+        padding: 2rem 0rem;
+    }
+    .graph1,.width30{
+        width: 20.494rem;
+    }
+    body,html{
+        overflow-x: scroll;
+        width: 100%;
+    }
+    .darkblueback{
+        background-color: rgb(25, 61, 95);
+    }
+    .whiteback{
+        background-color: rgb(250, 247, 247);
+    }
+    .takingmandivcon {
+        margin-top: 17%;
+    }
+    .addmargin,.margin42{
+        margin-top: 5%;
+    }
+    .width,.gmwidth,.width13{
+        width: 12.5rem;
+    }
+    .rmargin{
+        margin-top: 1%;
+    }
+    .marginl{
+        margin-left: 0%;
+    }
+    .padding40,.padding50,.backgreenpadding,.padding70,.conpadding , #backimage,#whitebackimage,.divcon,.imgpadding{
+        padding: 0.938rem;
+    }
+    .divcon{
+        border-radius: 0rem;
+    }
+    .marginladd{
+        margin-left: 5%;
+    }
+    .hrwidth,hr{
+        width: 100%;
+    }
+    .pr,.pa{
+        position:static;
+    }
+    .pa2{
+        position: absolute;
+    }
+   .height25{
+      height: 17.813rem;;
+    }
+    .width6{
+        height: 5.9rem;
+    } 
+    .fcenter{
+        text-align: center;
+    }
+}
