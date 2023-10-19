@@ -1,4 +1,4 @@
-#backimage,#whitebackimage {
+#backimage,#whitebackimage,#smallbackimage {
     background-image: url(images/background-blodo.png);
     background-repeat: no-repeat;
   background-position:top right;
@@ -6,8 +6,11 @@
 .backpadding{
     padding: 1rem 2.5rem 2.375rem 4.375rem;
 }
+#smallbackimage{
+    background-image: url(images/smallbackimage.png);
+}
 #whitebackimage{
-    background-image: url(images/whitebackimage.jpg);
+    background-image: url(images/whitebackimage.png);
 }
 .blodoheading {
     font-family: Manrope;
@@ -93,8 +96,7 @@ border: 0.125rem solid rgba(10, 38, 64, 1);
 .emailinput {
     border-radius: 1.25rem;
     border: 0.125rem solid #FFF;
-    width: 25rem;
-    padding: 0.375rem;
+   padding: 0.425rem;
 }
 .margin5{
     margin-top: 5%;
@@ -102,6 +104,7 @@ border: 0.125rem solid rgba(10, 38, 64, 1);
 .font64{
     font-weight: 400;
     font-size: 4rem;
+    font-family: Manrope;
 }
 .font14 {
     font-size: 0.875rem;
@@ -275,7 +278,7 @@ height: 7.5rem;
     padding: 1.313rem;
 }
 .borderblue{
-    border-bottom: 0.063rem solid blue;
+    border-bottom: 0.063rem solid  rgba(10, 38, 64, 1);
     padding: 1.313rem;
 }
 .td-none{
@@ -314,11 +317,11 @@ height: 7.5rem;
     .width10{
         width: 12.011rem;
         height: 10.333rem;
-    }
+    } 
 }
 @media (min-width:75rem){
-    .font48{
-        font-size: 2.5rem;
+    .emailinput{
+        width: 25rem;
     }
 }
 @media (min-width:12.5rem) and (max-width:47.97rem){
@@ -328,23 +331,31 @@ height: 7.5rem;
       .font24{
         font-size: 1.2rem;
     } 
-    .font48{
+    .font48,.font64{
         font-size: 1.7rem;
+    }
+    .tcenter{
+        text-align: center;
+    }
+}
+@media (min-width:12.5rem) and (max-width:36rem) {
+    .graph2{
+        padding: 0.5rem;
+    }
+    .emailinput{
+            padding:0.425rem 0rem 0.425rem 0rem;
     }
 }
 @media (min-width:47.97rem) and (max-width:75rem) {
-    .font48{
+    .font48,.font64{
         font-size: 2rem;
     }
 }
 @media (min-width :12.5rem) and (max-width:75rem){
-    .emailinput{
-        width: 15.625rem;
-    }
     .height17,.limagew{
         width: 12.5rem;
     }
-    .font64,.font96,.blodoheading{
+   .font96,.blodoheading{
         font-size:1.7rem;
     }
     .font36{
@@ -361,11 +372,11 @@ height: 7.5rem;
    
     #navbarSupportedContent{
         width: 100%;
-       padding: 2.25rem;
-       height: max-content;
+        padding: 2.25rem 0rem 2.25rem 0rem;
+        height: max-content;
     }
     .addpadding{
-        padding: 2rem 0rem;
+        padding: 1.5rem 0rem;
     }
     .graph1,.width30{
         width: 20.494rem;
@@ -375,13 +386,13 @@ height: 7.5rem;
         width: 100%;
     }
     .darkblueback{
-        background-color: rgb(25, 61, 95);
+        background-color: rgb(39, 76, 111);
     }
     .whiteback{
         background-color: rgb(250, 247, 247);
     }
-    .takingmandivcon {
-        margin-top: 17%;
+    .white{
+        color: white;
     }
     .addmargin,.margin42{
         margin-top: 5%;
