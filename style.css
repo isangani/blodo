@@ -27,10 +27,7 @@
     width: 29.866rem;
     height: 14.494rem;
 }
-.height17{
-    height: 17.813rem;
-    width: 18.75rem;
-}
+
 .colorwhite{
     color: white;
 }
@@ -159,10 +156,7 @@ height: 7.5rem;
     height: 14.375rem;
     width:12.5rem;
 }
-.height25{
-    height: 25rem;
-   width: 80rem;
-}
+
 .height36{
     height: 36.875rem;
     width: 20rem;
@@ -174,10 +168,7 @@ height: 7.5rem;
 .height13{
     height: 11.563rem;
 }
-.width21{
-   width: 21.875rem;
-    height: 23.125rem;
-}
+
 .width9{
     width: 9.375rem;
     height: 12.5rem;
@@ -193,10 +184,6 @@ height: 7.5rem;
 .width6{
     width:6.25rem;
     height: 12.5rem;
-}
-.width25{
-    height:20.625rem;
-     width:25rem;
 }
 .font48,.fw400{
     font-size: 3rem;
@@ -275,11 +262,11 @@ height: 7.5rem;
 }
 .hplinkborder{
     border-bottom: 0.063rem solid white;
-    padding: 1.313rem;
+    padding: 1.013rem 0rem;
 }
 .borderblue{
     border-bottom: 0.063rem solid  rgba(10, 38, 64, 1);
-    padding: 1.313rem;
+    padding: 1.013rem 0rem;
 }
 .td-none{
     text-decoration: none;
@@ -300,7 +287,7 @@ height: 7.5rem;
 .card{
     border-width: 0rem;
 }
-.card-body{
+.cbody{
     padding: var(--bs-card-spacer-y) 0rem;
 }
 .pointer{
@@ -310,6 +297,25 @@ height: 7.5rem;
     height: 19rem;
     width: 26rem;
     max-width: 100%;
+}
+.width21{
+    width: 23.875rem;
+    height: 25rem;
+ }
+ .width25{
+    height: 25.2rem;
+    width: 23rem;
+ }
+.b-none{
+    background-color: none;
+}
+@media screen  and  (min-width:48rem){
+  
+      .height17{
+        height: 17.813rem;
+        width: 18.75rem;
+    }
+    
 }
 @media (min-width:62rem){
     .overflow{
@@ -325,7 +331,7 @@ height: 7.5rem;
     .width10{
         width: 12.011rem;
         height: 10.333rem;
-    } 
+    }  
 }
 @media (min-width:75rem){
     .emailinput{
@@ -333,9 +339,6 @@ height: 7.5rem;
     }
 }
 @media (min-width:12.5rem) and (max-width:47.97rem){
-    .height36{
-        height: 17.813rem;
-      }
     .tcenter{
         text-align: center;
     }
@@ -349,6 +352,16 @@ height: 7.5rem;
     }
     .font64{
         font-size: 1.7rem;
+    }
+    .mtop5{
+        margin-top: 5%;
+    }
+    .width21{
+        width: 21rem;
+        height: 19rem;
+    }
+    .width25{
+        height: 19rem;
     }
 }
 @media (min-width:12.5rem) and (max-width:36rem) {
@@ -369,9 +382,12 @@ height: 7.5rem;
     .font64{
         font-size: 2.263rem;
     }
+    .margin15{
+        margin-top: 8%;
+    }
 }
 @media (min-width :12.5rem) and (max-width:75rem){
-    .height17,.limagew{
+    .limagew{
         width: 12.5rem;
     }
     .font48{
@@ -386,7 +402,7 @@ height: 7.5rem;
     .font36{
         font-size: 1.488rem;
     }
-    .margin15,.margin12{
+    .margin12{
         margin-top: 8%;
     }
     .amargin{
@@ -430,7 +446,7 @@ height: 7.5rem;
     .white{
         color: white;
     }
-    .addmargin,.margin42{
+    .addmargin,.margin42,.margin15{
         margin-top: 5%;
     }
     .width,.gmwidth,.height13{
@@ -466,13 +482,13 @@ height: 7.5rem;
     .pa2{
         position: absolute;
     }
-   .height25{
-      height: 17.813rem;;
-    }
     .width6{
         height: 5.9rem;
     } 
     .fcenter{
         text-align: center;
     }
+    .height36{
+        height: 17.813rem;
+      }
 }
