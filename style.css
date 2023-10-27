@@ -3,9 +3,6 @@
     background-repeat: no-repeat;
   background-position:top right;
 }
-.backpadding{
-    padding: 1rem 4.4rem 2.375rem 4.4rem;
-}
 #smallbackimage{
     background-image: url(images/smallbackimage.png);
 }
@@ -32,13 +29,6 @@
 }
 .mtop{
     margin-top: -8.25rem;
-}
-.graph2 {
-    padding: 0.625rem 0.625rem 1.438rem 1.875rem;
-}
-.talkingmandiv {
-    border-radius: 0.75rem;
-    box-shadow: 0rem 0.25rem 2rem 0rem rgba(0, 0, 0, 0.12);
 }
 .btn2-hover:hover {
     background-color: rgb(32, 224, 160);
@@ -150,15 +140,15 @@ height: 15.625rem;
 }
 .height14{
     height:14.725rem;
-    width:13.35rem;
+    width:14.35rem;
 }
 .height13{
     height: 13.563rem;
    width:18rem;
 }
 .width19{
-    height: 13.563rem;
-   width:19rem;
+    height: 13.863rem;
+   width:20rem;
 }
 .arroww{
     height: 0.938rem;
@@ -184,12 +174,6 @@ height: 15.625rem;
 .padding70{
     padding: 4.375rem;
 }
-.pr1{
-    position: relative;
-}
-.pa1{
-    position: absolute;
-}
 .padding40 {
     padding: 2.5rem;
 }
@@ -199,8 +183,8 @@ height: 15.625rem;
 .divpadding{
     padding: 0.625rem;
 }
-.margin15{
-    margin-top: 15%;
+.backpadding{
+    padding: 1rem 4rem 2.375rem 4.375rem;
 }
 .abpadding{
     padding: 1rem 4rem 9.375rem 4.375rem;
@@ -271,9 +255,6 @@ img{
         overflow-x: hidden;
         width: 100%;
     }
-    .mleft10{
-        margin-left: 60%;
-    }
     .nature{
         height: 19rem;
         width: 28rem;
@@ -313,20 +294,8 @@ img{
     .mtop5{
         margin-top: 5%;
     }
-    .width21,.width25{
-        height: 20rem;
-        width:23rem;
-    }
     .nature{
         width: 24rem;
-    }
-    .width6{
-        height: 10.9rem;
-        width:7rem;
-    } 
-    .width7{
-        height: 12rem;
-        width: 8rem;
     }
     .concenter{
         margin-left: auto;
@@ -353,15 +322,7 @@ img{
     }
     .font64{
         font-size: 2.263rem;
-    }
-    .width6,.width7{
-        height: 14.9rem;
-        width:10rem;
     } 
-    .width21,.width25{
-        width: 24rem;
-        height: 24.2rem;
-     }
 }
 @media (min-width :12.5rem) and (max-width:75rem){
     .limagew{
@@ -394,6 +355,12 @@ img{
     .blodoiconm{
         height:1.563rem;
     }
+    .width25{
+        width: 23rem;
+     }
+     .height30{
+        height: 30rem;
+     }
 }
 @media (min-width: 12.5rem) and (max-width: 62rem){
     #navbarSupportedContent{
@@ -419,7 +386,7 @@ img{
     .white{
         color: white;
     }
-    .addmargin,.margin15{
+    .addmargin{
         margin-top: 5%;
     }
     .gmwidth{
@@ -449,11 +416,7 @@ img{
     .fcenter{
        text-align: center;
     }
-    .height36{
-        height: 16.404rem;
-        width: 14.85rem;
-    }
-    .height17{
+    .height17,.height36{
         height: 13.003rem;
         width: 14.85rem;
     }
